@@ -1,10 +1,15 @@
-Converts .blk files to html.
+Converts .blk files to html
+===========================
+
+NOTE: This last worked on a 32-bit install of Linux, back in 2001. 
+      Needs to be ported to something more recent.
+
+Usage
+-----
 
 To output first "make" program then "make blkhtml" to output htmls from .blk file.
 
 To change .blk file edit BLKFILE in loop.sh.
-
--Nathaniel
 
 
 
