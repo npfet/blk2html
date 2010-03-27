@@ -1,0 +1,10 @@
+Converts .blk files to html.
+
+To output first "make" program then "make blkhtml" to output htmls from .blk file.
+
+To change .blk file edit BLKFILE in loop.sh.
+
+-Nathaniel
+
+
+

@@ -1,0 +1,21 @@
+#!/bin/sh --
+#
+# range is inclusive
+#
+# todo:
+# add support for 0 padding,not really needed tho
+# because you could always nest
+#
+# bad termination if $3 gives bad?
+
+if [ $# != 3 ]; then
+	echo "Usage: range <start> <end> <file>"
+	echo
+	exit -1
+fi
+
+for (( i=$1 ; i <= $2 ; i++ )) ; do
+	$3 $i
+done
+
+exit 0
